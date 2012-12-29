@@ -7,7 +7,7 @@
 
     <?php foreach ($profils as $profil): ?>
         <tr>
-            <td><?php echo $profil['profil']['idprofil']; ?></td>
+            <td><?php echo $profil['profil']['id']; ?></td>
             <td>
                 <?php echo $profil['profil']['intitule']; ?>
             </td>
